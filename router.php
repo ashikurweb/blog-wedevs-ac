@@ -8,6 +8,11 @@ $routes = [
     '/details'  => 'controllers/details.php',
     '/login'    => 'views/auth/login.php',
     '/register' => 'views/auth/register.php',
+    '/logout'   => 'controllers/auth/logout.php',
+    '/admin'    => 'controllers/backend/index.php', 
+    '/admin/blog-create' => 'controllers/backend/blog-create.php',
+    '/admin/user-profile' => 'controllers/backend/user-profile.php',
+    '/admin/settings' => 'controllers/backend/settings.php',
 ];
 
 function routeToController ( $uri, $routes ) {
