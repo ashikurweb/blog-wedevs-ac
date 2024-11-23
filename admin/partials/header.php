@@ -11,9 +11,15 @@
         </button>
         <!-- Dropdown -->
         <div id="profile-menu" class="absolute right-0 mt-2 w-48 bg-white border border-slate-200 rounded-lg shadow-lg hidden">
-            <a href="/admin/user-profile" class="block px-4 py-2 text-slate-700 hover:bg-slate-100">Profile</a>
-            <a href="/admin/settings" class="block px-4 py-2 text-slate-700 hover:bg-slate-100">Settings</a>
-            <a href="/logout" class="block px-4 py-2 text-red-600 hover:bg-red-50">Logout</a>
+            <a href="/admin/user-profile" class="block px-4 py-2 text-slate-700 hover:bg-slate-100">
+                <i class="ri-user-fill"></i> Profile
+            </a>
+            <a href="/admin/settings" class="block px-4 py-2 text-slate-700 hover:bg-slate-100">
+                <i class="ri-settings-2-line"></i> Settings
+            </a>
+            <a href="/logout" class="block px-4 py-2 text-red-600 hover:bg-red-50">
+                <i class="ri-logout-circle-line"></i> Logout
+            </a>
         </div>
     </div>
 </header>
